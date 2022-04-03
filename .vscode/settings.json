@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/22017bf0-6289-4521-8c7e-5b67facaaaad/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/fisheeAPI",
+    "appService.deploySubpath": "."
+}
