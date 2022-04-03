@@ -10,10 +10,10 @@ app = Flask(__name__)
 mysql = MySQL()
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
+app.config['MYSQL_DATABASE_USER'] = 'fishee'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'Br0k3nWh3ll!'
 app.config['MYSQL_DATABASE_DB'] = 'fishee_v1_db'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_HOST'] = '104.208.73.152'
 app.config['MYSQL_DATABASE_PORT'] = 8889
 mysql.init_app(app)
 
@@ -70,4 +70,4 @@ def data_feed():
    return jsonify(message="Insert data berhasil", status=True)
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080, debug=True)
+    app.run(host='104.208.73.152', port=8080, debug=True)
